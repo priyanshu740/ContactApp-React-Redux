@@ -1,0 +1,106 @@
+/* add sttyling */
+
+.add-data{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(65, 63, 68); */
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 3px 3px #888888;
+    /* text-align: center; */
+    
+}
+.add-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.add-form input{
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+
+}
+.sub-btn{
+    background: none;
+    cursor: pointer;
+}
+
+/* home styling */
+.home{
+    width: 800px;
+    position: relative;
+}
+.addcontact-btn{
+  cursor: pointer;
+  right: -500px;
+  position: absolute;
+  /* justify-content: end; */
+  margin-top: 50px;
+  padding:10px ;
+
+  color: aliceblue;
+  border-radius: 5px;
+  background-color: rebeccapurple;
+}
+.addcontact-btn:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+.table{
+    position: absolute;
+    top: 130px;
+    left: 35%;  
+}
+.edit-btn{
+    background-color: royalblue;
+  margin: 10px 5px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  color: black;
+}
+.edit-btn:hover{
+    color: black;
+    text-decoration: none;
+}
+.del-btn{
+    background-color: rgb(251, 30, 1);
+  margin: 10px 5px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+/* edit data */
+.edit-data h1{
+    display: flex;
+    justify-content: center;
+}
+.edit-btns{
+    display: flex;
+}
+.update-btn{
+    background-color: tomato;
+    margin: 10px 5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;   
+    width: 50%;
+}
+.cancel-btn{
+    background-color: rgb(122, 115, 113);
+    margin: 10px 5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    width: 50%;
+}
